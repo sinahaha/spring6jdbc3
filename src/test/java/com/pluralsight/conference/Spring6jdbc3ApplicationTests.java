@@ -15,7 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class Spring6jdbc3ApplicationTests {
 
-    @Test
+    @SuppressWarnings("null")
+	@Test
     void testGetSpeakers() {
         RestTemplate restTemplate = new RestTemplate();
 
